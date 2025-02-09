@@ -1,0 +1,15 @@
+spring:    
+  kafka:
+    bootstrap-servers: 10.6.0.11:9092
+
+opensearch:
+  uris: https://localhost:9200
+  username: admin
+  password: StrongShufflePassword321!
+
+app:
+  auth-server:
+    url: http://10.6.0.11:8080
+    realm: soar
+  allowedOrigins: http://10.6.0.11:8087,http://localhost:3000,http://10.6.0.11:3000
+
