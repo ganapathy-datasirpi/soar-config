@@ -3,9 +3,9 @@ spring:
     bootstrap-servers: 10.6.0.11:9092
 
 opensearch:
-  uris: https://localhost:9200
+  uris: http://wflow-opensearch:9200
   username: admin
-  password: StrongShufflePassword321!
+  password: Yihjkju!!@12
 
 app:
   auth-server:
